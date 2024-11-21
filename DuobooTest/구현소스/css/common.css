@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(100, 241, 87);
+}
+
+/* 상단 영역 */
+
+/* <!-- 1-1. 최상위 --> */
+.top-area{
+    /* position: absolute; */
+}
+
+.top-box{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    overflow: hidden;
+    /* transition: height .3s; */
+
+    
+}
+
+.shopcate-box{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 0 48px;
+}
+.shopcate-box ul{
+    display: flex;
+    align-items: center;
+}
+.shopcate-box ul a{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 16.8px;
+}
+
+.login-box {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.login-box ul {
+    display: flex;
+    align-items: center;
+}
+.login-box ul a{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 16.8px;
+}
