@@ -11,21 +11,31 @@ body{
     /* position: absolute; */
 }
 
+.top-area a{
+    color: #ffffff;
+}
+
 .top-box{
     position: relative;
     margin: auto;
     display: flex;
     width: 100%;
     max-width: 1920px;
-    padding: 0 48px;
+    padding: 17px 48px;
     justify-content: space-between;
+
+
+    
 }
+
+
 
 .shopcate-box{
     display: flex;
     align-items: center;
     padding-left: 48px;
-    /* gap: 0 30px; */
+
+   
 }
 
 .shopcate-box a{
