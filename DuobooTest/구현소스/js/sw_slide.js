@@ -1,8 +1,8 @@
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
+var swiper = new Swiper(".mainBan", {
+    spaceBetween: 0,
     centeredSlides: true,
     autoplay: {
-      delay: 2500,
+      delay: 4000,
       disableOnInteraction: false,
     },
     pagination: {

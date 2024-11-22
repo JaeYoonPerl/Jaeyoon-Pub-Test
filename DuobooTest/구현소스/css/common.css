@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background-color: rgb(100, 241, 87);
+    /* background-color: rgb(100, 241, 87); */
 }
 
 /* 상단 영역 */
@@ -24,7 +24,7 @@ body{
     height: 40px;
     display: flex;
     justify-content: space-between;
-    /* background-color: #fff; */
+    
     overflow: hidden;
     transition: height .3s;
     
@@ -33,7 +33,7 @@ body{
     margin: auto;
     display: flex;
     width: 100%;
-    max-width: 1824px;
+    /* max-width: 1824px; */
     padding: 0 30px;
 }
 .top-box .wid{
@@ -148,7 +148,7 @@ body{
 #footer-area .wid{
     margin: auto;
     width: 100%;
-    max-width: 1824px;
+    /* max-width: 1824px; */
     justify-content: space-between;
     
     
