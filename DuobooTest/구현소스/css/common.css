@@ -202,6 +202,7 @@ body{
 
 .info-txt{
     display: flex;
+    font-family: "Noto Sans", sans-serif;
 }
 .info-txt .pNum span{
     display: block;
@@ -210,35 +211,34 @@ body{
     font-size: 24px;
     line-height: 28px;
     color: #fff;
-    font-family: 'Rubik', sans-serif;
 }
 .info-txt strong{
     display: block;
     margin-bottom: 4px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 160%;
     color: #fff;
-    font-family: 'Rubik', sans-serif;
 }
 .info-txt .pNum p{
+    
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 160%;
     color: #fff;
 }
 .info-txt small{
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 160%;
     color: #fff;
 }
 .info-txt .pNum p span{
     display: inline-block;
     margin: 0 12px 0 5px;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 300;
     line-height: 160%;
     color: #fff;
@@ -247,17 +247,18 @@ body{
     margin-left: 50px;
 }
 .co{
+    
     display: flex;
     margin-bottom: 15px;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 180%;
     color: #fff;
 }
 
 .info span{
     font-weight: 300;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 180%;
     color: #fff;
 }
@@ -280,5 +281,8 @@ body{
 }
 
 .info p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 180%;
     color: #fff;
 }
