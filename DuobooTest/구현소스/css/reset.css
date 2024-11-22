@@ -22,10 +22,19 @@ figure,
 figcaption {
     margin: 0;
     padding: 0;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+
+    box-sizing: border-box;
+    font-family: 'Montserrat', "NotoSansCJKkr", sans-serif;
+    font-weight: 400;
+   white-space: nowrap;
 }
 
 /* ul,ol 순번,블릿없앰 */
-ul,ol{
+ul,ol,li{
     list-style: none;
 }
 
