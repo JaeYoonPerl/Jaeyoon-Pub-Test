@@ -61,3 +61,9 @@ img {
     엔터간극 4px 하단공백 없애기  */
     vertical-align: middle;
 }
+body>* {
+    overflow-x: hidden;
+    
+     /* overflow-x: clip; */
+     /* sticky와 hiddend을 같이 사용할때는 hidden이 아닌 clip사용 */
+  }

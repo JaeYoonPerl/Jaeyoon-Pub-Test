@@ -8,9 +8,3 @@
 /* 그리드 12 불러오기 */
 @import url(./grid_12_flex.css);
 
-body>* {
-    overflow-x: hidden;
-    
-     /* overflow-x: clip; */
-     /* sticky와 hiddend을 같이 사용할때는 hidden이 아닌 clip사용 */
-  }
