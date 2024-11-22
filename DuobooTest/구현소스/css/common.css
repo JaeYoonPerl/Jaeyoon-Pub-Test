@@ -149,29 +149,22 @@ body{
     margin: auto;
     width: 100%;
     max-width: 1824px;
+    justify-content: space-between;
+    
+    
 }
 .top-foot-box{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 66px;
-    border-bottom: 1px solid rgba(217, 217, 217, 0.1);
-    width: 100%;
+    overflow: hidden;
    
-}
-.info-box{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
 }
 
 .top-foot-box .left-box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 66px;
-
 }
 .top-foot-box .left-box a{
     font-weight: 500;
@@ -185,8 +178,9 @@ body{
 
 .top-foot-box .right-box{
     position: absolute;
-   
     right: 0;
+    display: flex;
+    align-items: center;
 }
 
 .top-foot-box .right-box a{
@@ -197,3 +191,94 @@ body{
     color: #fff;
 }
 
+
+.info-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    border-top: 1px solid rgba(217, 217, 217, 0.1);
+}
+
+.info-txt{
+    display: flex;
+}
+.info-txt .pNum span{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+.info-txt strong{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+.info-txt .pNum p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 160%;
+    color: #fff;
+}
+.info-txt small{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+    color: #fff;
+}
+.info-txt .pNum p span{
+    display: inline-block;
+    margin: 0 12px 0 5px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 160%;
+    color: #fff;
+}
+.info{
+    margin-left: 50px;
+}
+.co{
+    display: flex;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 180%;
+    color: #fff;
+}
+
+.info span{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 180%;
+    color: #fff;
+}
+
+.info span + span:not(:nth-of-type(4)){
+    position: relative;
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+.info span + span:not(:nth-of-type(4))::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 1px;
+    height: 9px;
+    transform: translateY(-50%);
+    background-color: #d9d9d9;
+}
+
+.info p{
+    color: #fff;
+}
