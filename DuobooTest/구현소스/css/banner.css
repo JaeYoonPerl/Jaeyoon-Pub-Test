@@ -2,14 +2,11 @@
 
 
 #ban-area{
-    position: relative;
-      height: 100%;
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
+   
+      
+      position: relative;
+    width: 100%;
+    height: 100vh;
 }
 
 .swiper {
@@ -20,7 +17,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #ee6262;
     display: flex;
     justify-content: center;
     align-items: center;
