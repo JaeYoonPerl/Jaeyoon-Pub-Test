@@ -286,3 +286,25 @@ body{
     line-height: 180%;
     color: #fff;
 }
+
+.icon{
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    flex-wrap: wrap;
+    gap: 15px 18px;
+}
+.icon a{
+    display: flex
+;
+    align-items: center;
+    color: #CCC;
+    font-size: 12px;
+    font-weight: 600;
+}
+.icon img{
+    display: inline-block;
+    margin-right: 6px;
+    max-width: 24px;
+}
