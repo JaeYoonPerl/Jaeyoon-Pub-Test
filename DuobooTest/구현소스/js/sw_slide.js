@@ -15,3 +15,11 @@ var swiper = new Swiper(".mainBan", {
     },
   });
 
+  var swiper = new Swiper(".lbSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
