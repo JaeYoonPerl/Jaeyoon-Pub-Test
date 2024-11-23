@@ -15,17 +15,3 @@ var swiper = new Swiper(".mainBan", {
     },
   });
 
-  var swiper = new Swiper(".lbSwiper", {
-    effect: "coverflow",
-    slidesPerView: 4,
-    spaceBetween: 30,
-    
-    loop: false,
-
-    
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      hide: false,
-    },
-    
-  });
