@@ -22,15 +22,7 @@ var swiper = new Swiper(".mainBan", {
     
     loop: false,
 
-    coverflowEffect: {
-      
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      scale:1,
-      rotate:0,
-      slideShadows: true,
-    },
+    
     scrollbar: {
       el: ".swiper-scrollbar",
       hide: false,
