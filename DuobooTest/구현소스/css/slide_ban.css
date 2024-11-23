@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+.bestItem {
+    position: relative;
+    margin-top: 110px;
+    padding-bottom: 42px;
+}
+
+#main-area h2 {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #454545;
+}
+
+.bBox ul {
+    display: flex;
+}
+.bBox ul li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    height: 100%;
+
+    margin-right: 30px;
+}
+.bBox ul li img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    aspect-ratio: auto 1 / 1.25;
+}
+.nBox ul {
+    display: flex;
+}
+.nBox ul li {
+    
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nBox ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    justify-content: flex-start; /* 위쪽 정렬 */
+    
+    
+}
+
+.box-img {
+    width: 100%; /* 부모 크기에 맞게 이미지 확장 */
+    /* 필요시 최대 크기 제한 */
+    margin-bottom: 15px; /* 이미지와 텍스트 사이 간격 */
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+}
+
+.nBox,
+.bBox {
+    margin-bottom: 60px;
+}
+.box-txt {
+    padding-top: 10px;
+    color: #454545; /* 텍스트 색상 */
+    font-size: 14px;
+    width: 100%;
+}
+
+.box-txt .code {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+.box-txt .code span {
+    display: inline-block;
+    margin-left: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+
+.box-txt .name {
+    display: block;
+    margin: 6px 0 10px;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+}
+
+.box-txt .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-txt .price p {
+    align-items: flex-end;
+    font-weight: 600;
+    display: flex;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    color: #51565d;
+}
+.box-txt .price p span {
+    display: inline-block;
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: -0.02em;
+    text-decoration-line: line-through;
+    color: #999999;
+}
+.box-txt .price small {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ff5656;
+    font-family: "Rubik";
+}
